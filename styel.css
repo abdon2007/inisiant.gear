@@ -19,7 +19,7 @@ main{
 }
 #big-container{
     background-color: white;
-    height: 3000px;
+    height: 2200px;
     width: 1100px;
     
    
@@ -29,6 +29,16 @@ main{
 .camera-1{
     padding-left: 5%;
     padding-top: 10%;
+}
+.online-shoping{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 7px;
+    text-align: justify;
+    
 }
 .start-journey{
     font-size: 50px;
@@ -62,7 +72,7 @@ main{
     
      border: 5px solid white;
      box-shadow: 4px ;
-     padding: 20px;
+     padding: 5%;
     
  }
 
@@ -90,10 +100,45 @@ main{
 .fa-star.empty{
     color: rgb(113, 103, 103);
 }
-@media only screen and (max-width:688px) {
-    main{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
+.maria-jaria{
+    text-align: right;
+    margin-left: 20px;
+    font-size: 15px;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.more-more{
+    color: rgb(252, 63, 63);
+    text-decoration: none;
+o;   
+}
+footer{
+   
+    margin-left: 13%;
+    margin-right: 13%;
+
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 213, 213);
+    background-color: rgb(47, 26, 63);
     
 }
+.footer-flex{
+    font-size: 10px;
+   
+  
+
+}
+
+
+@media only screen and (max-width:688px) {
+   
+   
+   main{
+       width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+   
+}    
